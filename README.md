@@ -153,7 +153,7 @@ Este projeto foi desenvolvido com foco em:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome]
+Desenvolvido por Abner Luiz
 
 ---
 
