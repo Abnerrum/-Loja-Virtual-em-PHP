@@ -1,0 +1,67 @@
+/* ==============================================
+   Loja Virtual — Estilos customizados
+   Bootstrap 5 é o base; aqui só ajustes finos
+   ============================================== */
+
+/* Cards de produto com hover suave */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Imagem do produto com overlay escuro no hover */
+.card-img-top {
+    transition: opacity 0.2s ease;
+}
+.card:hover .card-img-top {
+    opacity: 0.92;
+}
+
+/* Navbar com sombra */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+/* Botões arredondados */
+.btn {
+    border-radius: 8px;
+}
+
+/* Badge do carrinho na navbar */
+.badge.rounded-pill {
+    font-size: 0.7rem;
+}
+
+/* Tabela no carrinho */
+.table th {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Ícone de carrinho vazio */
+.bi-cart-x {
+    opacity: 0.3;
+}
+
+/* Ajuste no footer */
+footer {
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+}
+
+/* Formulário de checkout — label mais visível */
+.form-label.fw-semibold {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Página de confirmação */
+.bi-check-circle-fill {
+    filter: drop-shadow(0 4px 12px rgba(25, 135, 84, 0.3));
+}
